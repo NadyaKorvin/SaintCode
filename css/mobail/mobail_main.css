@@ -1,0 +1,134 @@
+@media screen and (max-width: 320px) {
+  .container {
+    margin: 0 auto;
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #basket__button {
+    display: none;
+  }
+
+  nav {
+    margin-bottom: 5px;
+    order: 1;
+    width: 320px;
+    position: sticky;
+    top: 40px;
+    background-color: #fff;
+    padding: 12px 0 13px 0;
+  }
+
+  .navigation {
+    overflow: scroll;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 8px;
+  }
+
+  .navigation a {
+    display: block;
+    background-color: #f3f3f7;
+    color: #464c55;
+    padding: 6px 15px 6px 15px;
+    border: hidden;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+  .navigation a:hover {
+    color: #d15700;
+    background-color: #fff0e6;
+    padding: 6px 15px 6px 15px;
+  }
+
+  .slider {
+    margin: 24px 0 0 0;
+    background-image: url("../../img/slider/first_slider.jpg");
+    height: 93px;
+    border-radius: 8px;
+    width: 250px;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 15px rgba(6, 5, 50, 0.05));
+  }
+
+  .new_and_popular__group {
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    gap: 10px;
+  }
+
+  .new_and_popular__block {
+    margin-top: 10px;
+    min-width: 240px;
+    height: 108px;
+    box-shadow: 0px 6px 25px rgba(6, 5, 50, 0.05);
+    border-radius: 10px;
+  }
+
+  .new_and_popular__block img {
+    margin: 11px 8px 11px 18px;
+    height: 86px;
+    width: 86px;
+  }
+
+  .pizza_title {
+    display: none;
+  }
+
+  .pizza,
+  .combo,
+  .snacks,
+  .deserts,
+  .drinks {
+    order: 2;
+  }
+
+  .pizza__group,
+  .combo__group,
+  .snacks__group,
+  .deserts__group,
+  .drinks__group {
+    display: flex;
+    width: 288px;
+    gap: 0px;
+  }
+
+  .pizza__block,
+  .combo__block,
+  .snacks__block,
+  .deserts__block,
+  .drinks__block {
+    display: flex;
+    height: auto;
+  }
+
+  .pizza__block img,
+  .combo__block img,
+  .snacks__block img,
+  .deserts__block img,
+  .drinks__block img {
+    padding-left: 0px;
+    margin: 16px 7px 18px 0;
+    width: 115px;
+    height: 115px;
+  }
+
+  .pizza_description,
+  .combo_description,
+  .snacks_description,
+  .deserts_description,
+  .drinks_description {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .orange_button,
+  .choice_button {
+    display: none;
+  }
+}

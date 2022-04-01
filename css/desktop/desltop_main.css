@@ -1,0 +1,127 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  margin-top: 31px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 24px;
+}
+
+.navigation a:hover {
+  color: #f96900;
+}
+
+.slider {
+  margin: 0 auto;
+  margin-top: 30px;
+  background-image: url("../../img/slider/first_slider.jpg");
+  height: 300px;
+  border-radius: 20px;
+  width: 1060px;
+  background-size: cover;
+  filter: drop-shadow(0px 5px 20px rgba(115, 121, 140, 0.15));
+}
+
+.new_and_popular__group {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.new_and_popular__block {
+  margin-top: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 250px;
+  height: 104px;
+  box-shadow: 0px 6px 25px rgba(6, 5, 50, 0.05);
+  border-radius: 10px;
+}
+
+.new_and_popular__block img {
+  margin: 14px 22px 14px 18px;
+  height: 76px;
+  width: 76px;
+}
+
+.pizza__group,
+.combo__group,
+.snacks__group,
+.deserts__group,
+.drinks__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pizza__block,
+.combo__block,
+.snacks__block,
+.deserts__block,
+.drinks__block {
+  margin-top: 40px;
+  width: 250px;
+  height: 370px;
+}
+
+.snacks__block {
+  height: 425px;
+}
+
+.deserts__block {
+  height: 405px;
+}
+
+.drinks__block {
+  height: 387px;
+}
+
+.pizza__block img,
+.combo__block img,
+.snacks__block img,
+.deserts__block img,
+.drinks__block img {
+  padding-left: 15px;
+  width: 220px;
+  height: 220px;
+}
+
+.pizza_description,
+.combo_description,
+.snacks_description,
+.deserts_description,
+.drinks_description {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-between;
+}
+
+.snacks_description {
+  height: 205px;
+}
+
+.deserts_description {
+  height: 186px;
+}
+
+.drinks_description {
+  height: 167px;
+}
+
+.price_and_button {
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+}

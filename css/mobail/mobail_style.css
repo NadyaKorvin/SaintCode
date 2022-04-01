@@ -1,0 +1,72 @@
+@media screen and (max-width: 320px) {
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  .new_and_popular_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000;
+  }
+
+  .new_and_popular_text > span {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20.46px;
+  }
+
+  h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27.28px;
+  }
+
+  h3 {
+    margin-top: 16px;
+    margin-right: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  p {
+    margin-top: 4px;
+    padding-right: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.37px;
+    color: #73798c;
+  }
+
+  #cost__orange_button {
+    margin-top: 8px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    background-color: #f96900;
+    width: 104px;
+    height: 40px;
+    border: hidden;
+    border-radius: 1000px;
+  }
+
+  #cost__choice_button {
+    margin-top: 8px;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    color: #d15700;
+    background-color: #fff0e6;
+    width: 104px;
+    height: 40px;
+    border: hidden;
+    border-radius: 1000px;
+  }
+}

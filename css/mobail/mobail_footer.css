@@ -1,0 +1,110 @@
+@media screen and (max-width: 320px) {
+  footer {
+    margin-top: 40px;
+    background-color: #464c55;
+    color: #fff;
+  }
+
+  .footer__navigation_contacts {
+    display: block;
+  }
+
+  .footer__navigation {
+    margin-top: 0px;
+    display: block;
+  }
+
+  .footer__titles {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .footer__links {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    color: #fff;
+  }
+
+  .hr_mobail {
+    margin: 20px 0 20px 0;
+    display: block;
+    border: 0;
+    height: 1px;
+    width: 288px;
+    background: #fff;
+    opacity: 0.2;
+  }
+
+  .footer__contacts {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .footer_google_apple {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer__tell,
+  .footer__free_call,
+  .hr_desktop,
+  .footer__nombers_description,
+  .footer__info {
+    display: none;
+  }
+
+  .footer__email {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.9;
+  }
+
+  .footer__underline {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .footer__underline_logo {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12px;
+  }
+
+  .footer__underline_links {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .footer__underline_links,
+  .footer__underline_links a {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .footer__underline_social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .footer__underline_social_links img {
+    margin: 0;
+  }
+
+  br {
+    display: none;
+  }
+}

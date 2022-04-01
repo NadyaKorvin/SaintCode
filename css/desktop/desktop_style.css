@@ -1,0 +1,101 @@
+.container {
+  margin: 0 auto;
+  width: 1060px;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.orange_button {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  background-color: #f96900;
+  width: 104px;
+  height: 40px;
+  border: hidden;
+  border-radius: 1000px;
+}
+
+.choice_button {
+  font-family: "Nunito", sans-serif;
+  color: #d15700;
+  background-color: #fff0e6;
+  width: 104px;
+  height: 40px;
+  border: hidden;
+  border-radius: 1000px;
+}
+
+.new_and_popular_text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #000;
+}
+
+.new_and_popular_text > span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.orange_button_mobail {
+  display: none;
+}
+
+h2 {
+  margin-top: 70px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+p {
+  margin-top: 10px;
+  padding-right: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #73798c;
+}
+
+.cost {
+  font-family: "Nunito", sans-serif;
+  border: none;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #000;
+  cursor: default;
+}
+
+.button__quantity {
+  width: 96px;
+  height: 32px;
+  border: none;
+  background: #f3f3f7;
+  border-radius: 1000px;
+  font-family: "Nunito";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  color: #73798c;
+}

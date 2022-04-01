@@ -1,0 +1,18 @@
+@media screen and (max-width: 320px) {
+  .header__flex {
+    margin-top: 12px;
+  }
+
+  .header__logo {
+    color: transparent;
+    user-select: none;
+    background: url("../../img/logo/mobail_logo.svg") no-repeat center / cover;
+    width: 156px;
+    height: 23px;
+  }
+
+  .header__contacts p,
+  .header__contacts a {
+    display: none;
+  }
+}
