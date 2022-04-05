@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/desktop/desltop_main.css" />
     <link rel="stylesheet" href="css/desktop/desktop_footer.css" />
     <link rel="stylesheet" href="css/desktop/desktop_pop_up.css" />
+    <link rel="stylesheet" href="css/desktop/desktop_basket.css" />
     <link rel="stylesheet" href="css/mobail/mobail_style.css" />
     <link rel="stylesheet" href="css/mobail/mobail_header.css" />
     <link rel="stylesheet" href="css/mobail/mobail_main.css" />
@@ -698,7 +699,7 @@
         </div>
       </footer>
     </div>
-    <section class="basket">
+    <section class="basket" style="display: none">
       <div class="basket__header">
         <div class="basket__header_logo"></div>
         <div class="basket__progress_bar">
@@ -791,14 +792,18 @@
             </div>
           </div>
         </div>
-        <h2>Сумма заказа:<span class="total_price">4 792 ₽</span></h2>
-        <div class="basket__long buttons">
-          <button class="long_batton__grey">
-            <span>&#60;</span>Вернуться в меню
-          </button>
-          <button class="long_batton__orange">
-            Оформить заказ<span>&#62;</span>
-          </button>
+        <h2 class="total_price_text">
+          Сумма заказа:<span class="total_price">4 792 ₽</span>
+        </h2>
+        <div class="basket__long_buttons">
+          <div class="long_batton__grey">
+            <img src="./img/bascket/for_button_left.svg" />
+            <a href="#">Вернуться в меню</a>
+          </div>
+          <div class="long_batton__orange">
+            <a href="#">Оформить заказ</a>
+            <img src="./img/bascket/for_button_right.svg" />
+          </div>
         </div>
       </div>
       <div class="basket__footer">
@@ -824,6 +829,70 @@
               <a href="mailto:feedback@dodopizza.com">feedback@dodopizza.com</a>
             </p>
           </div>
+        </div>
+      </div>
+    </section>
+    <section class="popup" style="display: block">
+      <div class="popup__content">
+        <div class="popup__body">
+          <div class="popup_img">
+            <img src="./img/popup/372px.png" />
+          </div>
+          <div class="popup_choice">
+            <h2>Чиззи чеддер</h2>
+            <p>30 см, традиционное тесто, 480 г</p>
+            <div class="popup__ingredients_text">
+              <div class="ingredient_for_delete"><span>ветчина</span></div>
+              ,
+              <div class="ingredient_text"><span>сыр чеддер</span></div>
+              ,
+              <div class="ingredient_for_delete">
+                <span>сладкий перец</span>
+              </div>
+              ,
+              <div class="ingredient_fixed"><span>моцарелла</span></div>
+              ,
+              <div class="ingredient_fixed"><span>томатный соус</span></div>
+              ,
+              <div class="ingredient_for_back"><span>чеснок</span></div>
+              ,
+              <div class="ingredient_for_delete">
+                <span>итальянские травы</span>
+              </div>
+            </div>
+            <div class="popup__radio_size">
+              <label
+                >Маленькая
+                <input
+                  type="radio"
+                  id="small"
+                  name="popup__radio_size"
+                  value="1"
+                />
+              </label>
+              <label
+                >Средняя
+                <input
+                  type="radio"
+                  id="medium"
+                  name="popup__radio_size"
+                  value="2"
+                />
+              </label>
+              <label
+                >Большая
+                <input
+                  type="radio"
+                  id="big"
+                  name="popup__radio_size"
+                  value="3"
+                />
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="popup__close">
+          <button><img src="./img/popup/close.svg" /></button>
         </div>
       </div>
     </section>
